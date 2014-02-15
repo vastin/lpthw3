@@ -40,7 +40,7 @@ def convert(snippet, phrase):
         param_count = random.randint(1,3)
         param_names.append(', '.join(random.sample(WORDS, param_count)))
 
-    for sentence in snipped, phrase:
+    for sentence in snippet, phrase:
         result = sentence[:]
         
         # fake class names
